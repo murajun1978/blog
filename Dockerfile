@@ -1,7 +1,5 @@
 FROM node:13.6.0-alpine3.10
 
-RUN apk add --no-cache git
-
 WORKDIR /home/app
 
 USER node
