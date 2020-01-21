@@ -1,5 +1,5 @@
-import React from 'react';
+import { NextPage } from 'next';
 
-const Blog: React.FC = () => <div>Welcome to my blog.</div>;
+const Blog: NextPage = () => <div>Welcome to my blog.</div>;
 
 export default Blog;
